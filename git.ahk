@@ -1,4 +1,4 @@
-﻿; **general
+; **general
 
 :*:eqe::exit
 
@@ -22,6 +22,7 @@
 ::gchm::git checkout -
 ::gchb::git checkout -b wregulski/
 ::gbd::git branch -d wregulski/
+::delbranches::~/Documents/dev/bash_scripts/delete_local_branches.sh
 ; **git-tfs-specific
 
 ::gtc::git tfs checkintool --build-default-comment
